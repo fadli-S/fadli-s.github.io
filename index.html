@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Nama Mahasiswa</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <img src="https://cdn.pixabay.com/photo/2012/04/26/19/43/profile-42914_640.png" 
+    alt="Foto Shin Chan" width="150" style="border-radius: 50%;">
+
     <h1>CURRICULUM VITAE</h1>
     
     <h2>Data Diri</h2>
@@ -17,8 +21,7 @@
 
     <h2>Pendidikan</h2>
     <ul>
-
-        <li>SD: SD Negerri 1 Poasia</li>
+        <li>SD: SD Negeri 1 Poasia</li>
         <li>SMP: SMP Negeri 5 Kendari</li>
         <li>SMA: SMK Negeri 4 Kendari</li>
         <li>Kuliah: Universitas Halu Oleo (Ilmu Komputer)</li>
@@ -30,5 +33,28 @@
         <li>Volunteer di Acara Kampus</li>
     </ul>
     
+    <h2>Formulir Pengisian Pesan</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Kirim Pesan">
+    </form>
+    
+    <a href="https://www.instagram.com/padlii.s?igsh=eGEyaTh6cGJyY29u" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="40" alt="Instagram">
+    </a>
+    
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+
+
